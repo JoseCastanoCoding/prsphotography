@@ -4,7 +4,15 @@ body {
 
 a {
     color: #212529 !important;
-    text-decoration: none;
+    text-decoration: none !important;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
 li {
