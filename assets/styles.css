@@ -19,6 +19,14 @@ a {
 
 }
 
+.navbar>.container-fluid, .fixed-top {
+    display: none!important;
+}
+
+.navbar-nav .nav-link {
+    color: white!important;
+}
+
 .sticky-top {
     background: white;
 }
@@ -29,6 +37,10 @@ a {
     margin-bottom: 3rem;
 }
 
+.hvr-grow-shadow:hover {
+    box-shadow: none!important;
+}
+
 #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
@@ -37,7 +49,7 @@ a {
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: red; /* Set a background color */
+    background-color: black; /* Set a background color */
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
@@ -46,7 +58,8 @@ a {
 }
   
 #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+    background-color: black; /* Add a dark-grey background on hover */
+    color: white;
 }
 
 .reduced-container {
@@ -94,6 +107,7 @@ a {
       flex: 50%;
       max-width: 50%;
     }
+    
 }
   
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -101,6 +115,20 @@ a {
     .column {
       flex: 100%;
       max-width: 100%;
+      padding-top: 65px;
     }
+
+    .deets {
+      padding-top: 65px;  
+    }
+
+    .navbar>.container-fluid, .fixed-top {
+        display: block!important;
+    }
+    
+    .flex-container {
+        display: none;
+    }
+    
 }
 
