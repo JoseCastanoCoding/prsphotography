@@ -40,6 +40,10 @@ a {
     box-shadow: none!important;
 }
 
+h5 a {
+    color: white!important;
+}
+
 #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
