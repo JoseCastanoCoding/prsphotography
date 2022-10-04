@@ -106,7 +106,6 @@ a {
     .column {
       flex: 50%;
       max-width: 50%;
-      padding-top: 65px;
     }
 
     .deets {
@@ -116,10 +115,19 @@ a {
     .navbar>.container-fluid, .fixed-top {
         display: block!important;
     }
-      
-    .flex-container {
+
+    a.hvr-grow-shadow {
         display: none;
     }
+    
+    div.mb-5 {
+        margin-bottom: 1rem!important;
+    }
+
+    #philStacey {
+        padding-top: 30px;
+    }
+
     
 }
   
@@ -128,7 +136,6 @@ a {
     .column {
       flex: 100%;
       max-width: 100%;
-      padding-top: 65px;
     }
 }
 
