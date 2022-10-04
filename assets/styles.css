@@ -91,6 +91,10 @@ h5 a {
   padding: 0 4px;
 }
 
+.row>* {
+    max-width: 50%;
+}
+
 /* Create four equal columns that sits next to each other */
 .column {
     flex: 25%;
