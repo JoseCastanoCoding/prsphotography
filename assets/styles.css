@@ -75,7 +75,7 @@ h5 a {
 
 .bio {
     text-align: justify;
-    font-size: 33px;
+    font-size: 25px;
 }
 
 .flex-row {
@@ -89,10 +89,6 @@ h5 a {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
-}
-
-.row>* {
-    max-width: 50%;
 }
 
 /* Create four equal columns that sits next to each other */
