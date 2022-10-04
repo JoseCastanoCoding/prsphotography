@@ -111,13 +111,22 @@ h5 a {
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
 
+    .sticky-top {
+        position: initial!important;
+    }
+
     .column {
       flex: 50%;
       max-width: 50%;
     }
 
+    .bio {
+        font-size: 21px;
+    }
+
     .deets {
-        padding-top: 65px;  
+        margin-left: 0px;
+        text-align: center;  
     }
   
     .navbar>.container-fluid, .fixed-top {
