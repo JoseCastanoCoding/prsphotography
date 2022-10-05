@@ -90,7 +90,7 @@ h5 a {
 
 .bio {
     text-align: justify;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 img.philPhoto {
@@ -164,7 +164,7 @@ img.philPhoto {
     }
 
     #philStacey {
-        padding-top: 30px;
+        padding-top: 70px;
     }
 }
 
@@ -207,7 +207,7 @@ img.philPhoto {
     }
 
     #philStacey {
-        padding-top: 30px;
+        padding-top: 70px;
     }
 }
 
@@ -218,17 +218,10 @@ img.philPhoto {
         max-width: 100%;
     }
 
-    div.mt-5 {
-        margin-top: 0px!important;
-    }
-
     div.mb-5 {
         margin-bottom: 2rem!important;
     }
 
-    h1 ~ a {
-        font-size: 25px;
-    }
 }
 
 
